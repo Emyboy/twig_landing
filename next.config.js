@@ -1,11 +1,11 @@
 const withPlugins = require("next-compose-plugins");
-const withTM = require("next-transpile-modules")(["twig"]);
+// const withTM = require("next-transpile-modules")(["twig"]);
 
-// module.exports = withPlugins([], {});
+// // module.exports = withPlugins([], {});
 
 
 
-module.exports = withTM({
+module.exports = withPlugins({
     reactStrictMode: true,
 });
 
